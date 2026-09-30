@@ -1,0 +1,14 @@
+[
+  {
+    "name": "disk-warn",
+    "cmd": "df -h /",
+    "every": "1h",
+    "timeout": "30s"
+  },
+  {
+    "name": "tracker-push-reminder",
+    "cmd": "echo push the tracker if you use one",
+    "every": "24h",
+    "timeout": "30s"
+  }
+]
